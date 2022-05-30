@@ -1,0 +1,40 @@
+import React from 'react';
+import { Route } from 'react-router-dom';
+import Login from '../../pages/Login';
+import ResetPassword from '../../pages/ResetPassword';
+import ForgotPassword from '../../pages/ForgotPassword';
+// import Register from '../../pages/Register';
+import Invite from '../../pages/Invite';
+
+export const PUBLIC_ROUTES = [
+  {
+    path: '/sign-in',
+    component: Login,
+    exact: true,
+  },
+  {
+    path: '/invite',
+    component: Invite,
+    exact: true,
+  },
+  // {
+  //   path: '/sign-up',
+  //   component: Register,
+  //   exact: true,
+  // },
+  {
+    path: '/forgot-password',
+    component: ForgotPassword,
+    exact: true,
+  },
+  {
+    path: '/reset-password',
+    component: ResetPassword,
+    exact: true,
+  },
+];
+
+const publicRoutes = () =>
+  PUBLIC_ROUTES.map((route) => <Route {...route} key={route.path} />);
+
+export default publicRoutes;

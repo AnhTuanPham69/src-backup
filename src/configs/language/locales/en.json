@@ -1,0 +1,1308 @@
+{
+  "appInfo": {
+    "footer": "Anh Doan",
+    "name": "Base Admin"
+  },
+  "ZERO_RESULTS": "Address not found",
+  "sideBar": {
+    "dashboard": "Dashboards",
+    "user": "Users",
+    "cms": "CMS",
+    "customer": "Customers",
+    "settings": "Settings",
+    "course": "Courses",
+    "order": "Orders",
+    "payout": "Payouts",
+    "organization": "Organizations",
+    "supportRequest": "Support Requests",
+    "report": "Reports"
+  },
+  "header": {
+    "profile": "My Profile",
+    "pharmacy": "Pharmacy info",
+    "logout": "Logout"
+  },
+  "input": {
+    "grantType": {
+      "placeholder": "Grant Type",
+      "validateMsg": {
+        "required": "Please input your Grant Type",
+        "invalid": "Grant Type is invalid"
+      }
+    },
+    "username": {
+      "placeholder": "Username",
+      "validateMsg": {
+        "required": "Please input your username!"
+      }
+    },
+    "address": {
+      "name": "Address",
+      "placeholder": "Address",
+      "validateMsg": {
+        "required": "Please input your Address!"
+      }
+    },
+    "fullName": {
+      "placeholder": "Full Name",
+      "validateMsg": {
+        "required": "Please input your full name!"
+      }
+    },
+    "firstName": {
+      "name": "First Name",
+      "placeholder": "First Name",
+      "validateMsg": {
+        "required": "Please input your first name!"
+      }
+    },
+    "lastName": {
+      "name": "Last Name",
+      "placeholder": "Last Name",
+      "validateMsg": {
+        "required": "Please input your last name!"
+      }
+    },
+    "password": {
+      "placeholder": "Password",
+      "validateMsg": {
+        "required": "Please input your password!"
+      }
+    },
+    "confirmPassword": {
+      "placeholder": "Confirm Password",
+      "validateMsg": {
+        "required": "Please input your confirm password!"
+      }
+    },
+    "email": {
+      "name": "Email",
+      "placeholder": "Email",
+      "validateMsg": {
+        "invalid": "Email is invalid",
+        "required": "Please input your email!"
+      }
+    },
+    "phoneNumber": {
+      "name": "Phone Number",
+      "placeholder": "Phone Number",
+      "validateMsg": {
+        "invalid": "Phone number is invalid",
+        "required": "Please input your phone number!"
+      }
+    },
+    "country": {
+      "name": "Country",
+      "placeholder": "Country",
+      "validateMsg": {
+        "invalid": "Country is invalid",
+        "required": "Please input your country!"
+      }
+    },
+    "city": {
+      "name": "City",
+      "placeholder": "City",
+      "validateMsg": {
+        "invalid": "City is invalid",
+        "required": "Please input your city!"
+      }
+    },
+    "district": {
+      "name": "District",
+      "placeholder": "District",
+      "validateMsg": {
+        "invalid": "District is invalid",
+        "required": "Please input your district!"
+      }
+    },
+    "state": {
+      "name": "State",
+      "placeholder": "State",
+      "validateMsg": {
+        "invalid": "State is invalid",
+        "required": "Please input your state!"
+      }
+    },
+    "Address": {
+      "name": "Address",
+      "placeholder": "Address",
+      "validateMsg": {
+        "invalid": "Address is invalid",
+        "required": "Please input your address!"
+      }
+    },
+    "zipCode": {
+      "name": "Zip Code",
+      "placeholder": "Zip Code",
+      "validateMsg": {
+        "invalid": "Zip code is invalid",
+        "required": "Please input your zip code!"
+      }
+    },
+    "promoCode": {
+      "placeholder": "Promo code"
+    },
+    "subscribe": {
+      "placeholder": "Enter your email"
+    },
+    "cardNo": {
+      "name": "Card No",
+      "validateMsg": {
+        "invalid": "Card No is invalid",
+        "required": "Please input Card No!"
+      }
+    },
+    "expiredDate": {
+      "name": "Expired Date",
+      "placeholder": "Select...",
+      "validateMsg": {
+        "invalid": "Date is invalid",
+        "required": "Please select date!"
+      }
+    },
+    "securityCode": {
+      "name": "Security Code",
+      "placeholder": "Enter CVC",
+      "validateMsg": {
+        "invalid": "Security code is invalid",
+        "required": "Please input security code!"
+      }
+    },
+    "shippingMethod": {
+      "validateMsg": {
+        "invalid": "Shipping method is invalid",
+        "required": "Please select shipping method!"
+      }
+    },
+    "paymentMethod": {
+      "validateMsg": {
+        "invalid": "Payment method is invalid",
+        "required": "Please select payment method!"
+      }
+    }
+  },
+  "form": {
+    "btn": {
+      "add": "Add new",
+      "edit": "Edit"
+    }
+  },
+  "products": {
+    "id": "Product Id",
+    "name": "Product Name",
+    "description": "Product Description"
+  },
+  "login": {
+    "title": "Login",
+    "subTitle": "The innovative mobile apps and webs for Schools and Parent to take care our kids",
+    "rememberMe": "Remember me",
+    "loginBtn": "Log in",
+    "yourEmail": "Your Email",
+    "resetPassword": "Reset password",
+    "password": "Password"
+  },
+  "register": {
+    "title": "Register",
+    "registerBtn": "Register"
+  },
+  "forgotPassword": {
+    "title": "Forgot password",
+    "success": {
+      "title": "Reset Password Success!",
+      "description": "Please check your email and create a new password."
+    }
+  },
+  "action": "Action",
+  "dashboard": {
+    "startUpChart": "Active Startup Chart",
+    "title": "Dashboard",
+    "header": "Dashboard",
+    "reviewChart": "Review Chart"
+  },
+  "settings": {
+    "header": "Settings"
+  },
+  "customers": {
+    "document": "Document",
+    "startupUpload": "Startup Upload",
+    "tasks": "Tasks",
+    "resources": "Resources",
+    "moreInfo": "More Info",
+    "currentProgram": "Current Program",
+    "currentLesson": "Current Lesson",
+    "detail": "Detail",
+    "startupQuestionnaireAnswer": "Startup Questionnaire Answer",
+    "info": "Info",
+    "paymentInfo": "Payment Info",
+    "coach": "Coach",
+    "serviceProvider": "Service Provider",
+    "name": "Customer Name",
+    "email": "Account",
+    "numberOfCourse": "Number Of Courses",
+    "header": "Customers",
+    "createdAt": "Registered Date",
+    "cancelledSubscription": "The subscription has been canceled",
+    "placeholder": {
+      "name": "Enter Customer Name",
+      "status": "Select Status",
+      "endDate": "End Date",
+      "startDate": "Start Date",
+      "email": "Enter Customer Account"
+    },
+    "editPage": "Edit Customer",
+    "courseName": "Course",
+    "progress": "Progress",
+    "subscribedAt": "Subscribed Date",
+    "organization": "Organization",
+    "currentPrograms": {
+      "header": "Current Course"
+    },
+    "generalInformation": "General Information",
+    "sectors": "Sector",
+    "privateContact": "Private Contact",
+    "socialChannel": "Social Channel"
+  },
+  "home": {
+    "revenue": {
+      "desc": "Overall income"
+    },
+    "title": {
+      "orders": "Orders",
+      "overview": "Overview",
+      "users": "Users",
+      "revenue": "Revenue"
+    },
+    "summary": {
+      "user": "Users",
+      "order": "Orders",
+      "artists": "Artists",
+      "artworks": "Artworks",
+      "galleries": "Galleries",
+      "business": "Business",
+      "totalOrder": "Total Order",
+      "totalDoneOrder": "Done Order",
+      "paidMoney": "Paid Money"
+    },
+    "chart": {
+      "totalRevenue": "Total Revenue",
+      "totalOrder": "Total Orders",
+      "day": "Day",
+      "month": "Month",
+      "year": "Year",
+      "title": "Revenue",
+      "sales": "Sales",
+      "profit": "Profit",
+      "businesses": "Organization",
+      "programs": "Program",
+      "orders": "Order",
+      "customers": "Customer",
+      "startUps": "Startup",
+      "coaches": "Coach",
+      "providers": "Provider"
+    },
+    "map": {
+      "title": "Top Global Sales"
+    },
+    "country": {
+      "buenosAires": "Buenos Aires",
+      "brasilia": "Brasilia",
+      "santiago": "Santiago",
+      "bogota": "Bogota"
+    },
+    "detailedSummary": {
+      "monthRevenue": "This Month Revenue",
+      "chartRevenue": {
+        "revenue": "Revenue"
+      },
+      "customer": "New Customers",
+      "product": "Popular Product"
+    }
+  },
+  "summaryCard": {
+    "up": "Up From Yesterday",
+    "down": "Down From Yesterday"
+  },
+  "detailSummaryCard": {
+    "up": "Up From Last Month",
+    "down": "Down From Last Month"
+  },
+  "productDetail": {
+    "pageTitle": "Product Detail",
+    "features": "Feature",
+    "satisfiedCustomer": "Satisfied Customer"
+  },
+  "relatedProducts": {
+    "title": "Related Products"
+  },
+  "productsView": {
+    "title": "Products View"
+  },
+  "profile": {
+    "editProfile": "Edit profile",
+    "changePassword": "Change Password",
+    "header": "Profile",
+    "profileInfo": "Profile info",
+    "email": "Email",
+    "uploadAvatar": "Upload avatar",
+    "username": "Username",
+    "firstName": "First name",
+    "address": "Address",
+    "lastName": "Last name",
+    "gender": "Gender",
+    "phone": "Phone Number",
+    "summary": "Summary",
+    "note": "Your note",
+    "fullName": "Full Name",
+    "birthday": "Birthday",
+    "national": "National",
+    "facebookLink": "Facebook Link",
+    "oldPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "message": {
+      "oldPassword": "Please input your current password!",
+      "newPassword": "Please input your password!",
+      "confirmPassword": "Please confirm your password!",
+      "error": "The two passwords that you entered do not match!"
+    }
+  },
+  "summary": {
+    "businesses": "Total Organizations",
+    "customers": "Total Customers",
+    "courses": "Total Courses",
+    "orders": "Total Orders",
+    "startUp": "Startup",
+    "inProgress": "In Progress",
+    "waitingFeedback": "Waiting Feedback",
+    "done": "Done",
+    "cancelled": "Cancelled",
+    "coach": "Coach",
+    "program": "Course",
+    "service": "Service",
+    "revenues": "Total Revenues",
+    "keyCourses": "courses",
+    "keyOrders": "orders",
+    "keyRevenues": "revenues",
+    "keyCustomers": "customers",
+    "keyBusinesses": "organizations"
+  },
+  "notifications": {
+    "header": "Notifications",
+    "pharmacy": "Pharmacy",
+    "send": "Sending",
+    "prepare": "Preparing",
+    "delivery": "Delivery"
+  },
+  "admins": {
+    "createPage": "Create Admin"
+  },
+  "isActive": {
+    "deactive": "Inactive",
+    "active": "Active"
+  },
+  "isDisabled": {
+    "disabled": "Disabled",
+    "notDisabled": "Not disabled"
+  },
+  "role": {
+    "admin": "Admin",
+    "superAdmin": "Super Admin",
+    "startup": "Startup",
+    "customer": "Customer",
+    "coach": "Coach",
+    "coaches": "Coache",
+    "provider": "Service Provider",
+    "organization": "Organization"
+  },
+  "button": {
+    "open": "Open",
+    "upload": "Upload",
+    "generate": "Generate",
+    "genCMS": " Generate program",
+    "create": "Create",
+    "add": "Add",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "ok": "Ok",
+    "search": "Search",
+    "reset": "Reset",
+    "resetMyPassword": "Reset Password",
+    "submit": "Submit",
+    "call": "Call",
+    "loadMore": "Load More...",
+    "sentInvite": "Sent Invite",
+    "resendInvite": "Resend Invite",
+    "editProfile": "Edit profile",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "filter": "Filter",
+    "clearFilter": "Clear",
+    "addToCart": "Add to Cart",
+    "addedToCart": "Added to Cart",
+    "updateToCart": "Update to Cart",
+    "apply": "Apply",
+    "subscribe": "Subscribe",
+    "change": "Change",
+    "confirm": "Confirm",
+    "placeYourOrder": "Place Your Order",
+    "accept": "Accept",
+    "reject": "Reject",
+    "changePassword": "Change Password",
+    "duplicate": "Clone New",
+    "reOpen": "Open Again",
+    "setDefault": "Default",
+    "download": "Download",
+    "publish": "Publish"
+  },
+  "popup": {
+    "noData": "No data",
+    "alertDelete": "Delete Data",
+    "alertDeleteDes": "Do you want to delete item {{customMessage}}?"
+  },
+  "error": {
+    "validateType": "Invalid",
+    "title": "Oops!",
+    "description": "Some thing wrong!",
+    "phone": "The input is not valid Phone!",
+    "waitingUpdate": "Waiting for updates",
+    "required": "This field is required",
+    "url": "Please enter a valid url"
+  },
+  "success": {
+    "title": "Successfully!",
+    "description": "the update is successful!",
+    "users": "Create a user successfully",
+    "businesses": "Create a organization successfully",
+    "programs": "Create a course successfully",
+    "subscriptionPlans": "Create a subscription plan successfully",
+    "serviceTypes": "Create a service type successfully",
+    "programPhases": "Create a program successfully",
+    "periods": "Add a week successfully",
+    "learns": "Add a learning concept successfully",
+    "todos": "Add a to-do successfully",
+    "todoSteps": "Add a to-do step successfully",
+    "gets": "Add a service provider successfully",
+    "onboardings": "Add a onboarding video successfully",
+    "questionnairePages": "Add a questionaire page successfully",
+    "comments": "Leave a comment successfully",
+    "payouts" : "Pay to organization successfully",
+    "cms": "Create a page successfully"
+  },
+  "tabs": {
+    "categories": "Categories",
+    "technicalCategories": "Technical Categories",
+    "componentTemplates": "Component Templates",
+    "projectTemplates": "Project Templates",
+    "mainProjectTemplates": "Main ProjectTemplates",
+    "serviceTypes": "Service Type",
+    "onboardings": "Onboarding Video",
+    "questionnairePages": "Questionnaire Page",
+    "subscriptionPlans": "Subscription Plan"
+  },
+  "statuses": {
+    "name": "Name",
+    "color": "Color",
+    "isActive": "Status",
+    "createPage": "Create Status",
+    "editPage": "Edit Status"
+  },
+  "gender": {
+    "title": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "inprogress": "In Progress",
+    "pending": "Pending",
+    "completed": "Completed",
+    "developing": "Developing",
+    "approved": "Approved",
+    "waitingForFeedback": "Waiting for feedback",
+    "done": "Done",
+    "cancel": "Cancel",
+    "success": "Success",
+    "fail": "Fail",
+    "error": "Error",
+    "unclaimed": "Unclaimed"
+  },
+  "placeholder": {
+    "undefined": "select..."
+  },
+  "text": {
+    "or": "OR",
+    "googleAddress": "Google Address(use detect latitude, longitude)"
+  },
+  "currencyUnit": {
+    "text": "VND",
+    "sign": "$"
+  },
+  "overallRating": {
+    "text": "Overall Rating",
+    "start": "Start"
+  },
+  "reviews": {
+    "text": "reviews",
+    "totalReview": "Total Review"
+  },
+  "promoCode": {
+    "name": "Promo Code",
+    "none": "NONE",
+    "title": "Have a promo code ?",
+    "description": "If you have a promo code, You can take discount !",
+    "applySuccess": "Applied successfully"
+  },
+  "payment": {
+    "totalPayment": "Total Payment",
+    "total": "Total",
+    "subTotal": "Sub Total",
+    "shipping": "Shipping"
+  },
+  "payType": {
+    "paymentByCash": "Payment By Cash",
+    "paymentByBank": "Payment By Bank"
+  },
+  "subscriptionPlans": {
+    "phaseId": "Program",
+    "programId": "Course",
+    "planCode": "Plan Code",
+    "featuresPlaceholder": "Type & enter to add a feature",
+    "features": "What you will learn from this program",
+    "createPage": "Create subscription plan",
+    "editPage": "Edit subscription plan",
+    "showPage": "Subscription Plan Detail",
+    "header": "Subscription Plan",
+    "title": "Subscription Plans",
+    "name": "Plan Name",
+    "price": "Monthly Price",
+    "program": "Course",
+    "programPhase": "Program",
+    "quantity": "Program Length (in months)",
+    "monthNumber": "Number of Months",
+    "unit": "Unit",
+    "description": "Marketing Content",
+    "placeholderQuantity": "Course Length",
+    "business": "Organization",
+    "create": "Create"
+  },
+  "medias": {
+    "attachedImage": "Attached Image(s)",
+    "attachedFile": "Attached File(s)",
+    "empty": "No files attached"
+  },
+  "programs": {
+    "noPrograms": "No Programs",
+    "shortDescription": "Add short description for course",
+    "shortName": "Enter Course name",
+    "content": "What you will learn from this course",
+    "content2": "Content",
+    "contentPlaceholder": "Add each feature with Enter button",
+    "getDataPlaceholder": "Add each feature with Enter button",
+    "recommendDataPlaceholder": "Add each feature with Enter button",
+    "shortContent": "Add content for course",
+    "info": "Course Information",
+    "phaseDetails": "Program Details",
+    "images": "Course image",
+    "numberOfPhase": "Number of Programs",
+    "businesses": "Select organization",
+    "businessName": "Organization",
+    "createdAt": "Created Date",
+    "genCmsSuccessMessage": "Generate program to landing page successfully",
+    "phases": {
+      "images": "Program Images",
+      "marketingContent": "Marketing Content",
+      "info": "Program Information",
+      "subscriptionPlan": "Subscription Plan",
+      "name": "Program Name",
+      "addNew": "Add Program",
+      "week": "Program length (in weeks)",
+      "noData": "No program data yet",
+      "enterPhase": "Enter number of programs to get pre-populated template",
+      "descriptionPlaceholder": "Add description for program",
+      "namePlaceholder": "Enter Program name"
+    },
+    "subscriptionPlan": {
+      "quantity": "Number of months",
+      "price": "Monthly price",
+      "features": "This program is good for you if",
+      "description": "Marketing content",
+      "placeholderDescription": "Add content for program",
+      "getData": "What you will get",
+      "learnData": "What you will learn from this program",
+      "recommendData": "This program is good for you if"
+    },
+    "placeholder": {
+      "id": "Enter ID",
+      "isActive": "Select Status",
+      "name": "Enter Course Name",
+      "phaseNumber": "Enter Number of programs",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "businessName": "Select Organization"
+    },
+    "businessesEdit": "Organization",
+    "phaseTitle": "program",
+    "header": "Courses",
+    "create": "+ Create Course",
+    "id": "ID",
+    "createFirst": "+ Create your first course",
+    "name": "Course Name",
+    "isActive": "Status",
+    "phase": "Program: {{phaseName}}",
+    "phaseNo": "Number of programs",
+    "week": "Week",
+    "description": "Description",
+    "price": "Price",
+    "createPage": "Create Course",
+    "editPage": "Edit Course",
+    "phaseNumber": "Number of programs",
+    "detail": "Course Detail"
+  },
+  "programPhases": {
+    "features": "Program features",
+    "subscriptionPlan": "Subscription Plan",
+    "program": "Course Name",
+    "genCMS": "Select courses to generate to landing page",
+    "header": "Programs",
+    "id": "Program ID",
+    "phaseNumber": "Sort order",
+    "name": "Program Name",
+    "description": "Description",
+    "status": "Status",
+    "action": "Action",
+    "createPage": "Add New Program",
+    "editPage": "Edit",
+    "createFirst": "+Create your first course",
+    "create": "Add Program",
+    "totalPeriod": "Program length (in weeks)",
+    "placeholderName": "Enter program name",
+    "placeholderPhaseNumber": "Enter number to rank program",
+    "placeholderDescription": "Enter program description",
+    "placeholderWeek": "Enter number of weeks",
+    "view": "View detail >",
+    "phasesTitle": "Program {{phaseNumber}}: {{phaseName}}",
+    "week": "week(s)",
+    "isActive": "Status",
+    "month": "month"
+  },
+  "periods": {
+    "header": "Weeks",
+    "createPage": "Add Week",
+    "editPage": "Edit Week"
+  },
+  "weeks": {
+    "periodNumber": "Week number",
+    "header": "Weeks",
+    "name": "Name",
+    "description": "Description",
+    "placeholderName": "Enter period name",
+    "placeholderDescription": "Enter period description",
+    "program": "Program: {{programName}}",
+    "learns": {
+      "rankNumber": "Ranking",
+      "addNew": "Create new concept",
+      "header": "Learn",
+      "id": "ID",
+      "title": "Concept Name",
+      "description": "Description",
+      "actions": "Action",
+      "createFirst": "+ Create Process",
+      "createMore": "+ Add more concept",
+      "createTitle": "Add Concept",
+      "editTitle": "Edit Concept",
+      "conceptDescription": "Concept Description",
+      "videoLink": "Video link",
+      "uploadFile": "Upload Your File",
+      "conceptDetails": {
+        "title": "Concept Detail"
+      },
+      "addLearningConcept": "Add learning concept"
+    },
+    "gets": {
+      "provider": "Contact Name",
+      "header": "Get",
+      "id": "ID",
+      "logo": "Logo",
+      "name": "Name",
+      "email": "Email",
+      "phoneNo": "Phone Number",
+      "description": "Description",
+      "actions": "Action",
+      "createFirst": "+ Add Service Provider",
+      "uploadFile": "Company Logo",
+      "companyName": "Company Name",
+      "serviceType": "Service Type",
+      "providerType": "Service",
+      "link": "Web URL",
+      "createTitle": "Add Service Provider",
+      "editTitle": "Edit Service Provider",
+      "getLinkBtn": "Copy Link",
+      "message": "Copied to clipboard",
+      "placeholder": {
+        "provider": "Select provider",
+        "companyName": "Enter company name",
+        "email": "Enter email address",
+        "phoneNo": "Enter phone number",
+        "serviceType": "Enter or choose type of service",
+        "link": "Enter Web URL ",
+        "description": "Enter description"
+      },
+      "addService": "Add Service Provider"
+    },
+    "todos": {
+      "todoSteps": "To-do Steps",
+      "link": "Follow URL",
+      "attached": "Attached documents",
+      "header": "To-do",
+      "title": "Do",
+      "name": "Process",
+      "rankNo": "Priority",
+      "createPage": "Add to-do",
+      "editPage": "Edit to-do",
+      "links": "Upload File",
+      "placeholder": {
+        "name": "Enter process name",
+        "rankNo": "Enter rank number",
+        "link": "Enter URL"
+      },
+      "addTodos": "Add to-do"
+    },
+    "todoSteps": {
+      "header": "To-do Step",
+      "add": "Add Step",
+      "createPage": "Add New Step",
+      "editPage": "Edit Step",
+      "title": "Title",
+      "addOptions": "Add Option",
+      "placeholder": {
+        "name": "Enter title step"
+      },
+      "options": "Options",
+      "optionsPlaceholder": "Type & Enter to add more options",
+      "name": "Description"
+    }
+  },
+  "startUps": {
+    "document": "Document",
+    "startupUpload": "Startup Upload",
+    "tasks": "Tasks",
+    "moreInfo": "More Info",
+    "currentProgram": "Current Program",
+    "serviceProvider": "Service Provider",
+    "coach": "Coach",
+    "paymentInfo": "Payment Info",
+    "info": "Info",
+    "startupQuestionnaireAnswer": "Startup Questionnaire Answer",
+    "program": "Course",
+    "editPage": "Edit Startup",
+    "header": "Startup",
+    "name": "Startup",
+    "detail": "Detail",
+    "sector": "Sector",
+    "contact": "Contact",
+    "registrationDate": "Registration Date",
+    "progress": "Progress",
+    "status": "Status",
+    "placeholder": {
+      "name": "Enter Startup Name or Contact Name",
+      "sector": "Select Sector",
+      "registrationDate": "Registration Date",
+      "progress": "Select Progress",
+      "status": "Select Status"
+    },
+    "currentPrograms": {
+      "header": "Current Course",
+      "week": "Week",
+      "description": "Description",
+      "progress": "Progress",
+      "status": "Status",
+      "programTitle": "Course: {{programName}}",
+      "phaseTitle": "Program {{phaseNumber}}: {{phaseName}}",
+      "progressNumber": "{{progress}}%",
+      "phaseOptions": "Program {{phase}}"
+    },
+    "activities": {
+      "name": "Task Name",
+      "type": "Stage",
+      "time": "Completed Date",
+      "programPhases": "Program",
+      "addComment": "add a comment in",
+      "deleteComment": "delete a comment",
+      "doneConcept": "learned",
+      "doneTodoStep": "completed a step in",
+      "cancelTodoStep": "canceled a step in",
+      "cancelConcept": "canceled a concept in",
+      "addRating": "add a rate in",
+      "updateRating": "update a rate in",
+      "skipTodo": "skipped a todo in",
+      "skipConcept": "skipped a concept in",
+      "doneTodo": "done a todo in"
+    },
+    "resources": {
+      "title": "Resources",
+      "fileName": "File Name",
+      "phaseName": "Program",
+      "week": "Week",
+      "updatedAt": "Updated Date"
+    },
+    "advancedInfo": {
+      "monthlyPayment": "Monthly Payment",
+      "firstPayment": "First Payment",
+      "nextPayment": "Next Payment",
+      "finalPayment": "Final Payment",
+      "monthlyPrice": "{{monthlyPrice}}/month ({{duration}} month(s) commitment)"
+    }
+  },
+  "supports": {
+    "header": "Support requests",
+    "name": "Name",
+    "email": "Email Address",
+    "country": "Country",
+    "message": "Request",
+    "company": "Company name",
+    "editPage": "Request Detail",
+    "placeholder": {
+      "name": "Enter Name",
+      "email": "Enter email address",
+      "country": "Select country",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "createdAt": "Created Date"
+  },
+  "users": {
+    "socialMedia": "Social Media",
+    "privateContact": "Private Contact",
+    "generalInformation": "General Information",
+    "userDetail": "User Detail",
+    "privateEmail": "Private Email",
+    "privatePhone": "Private Phone",
+    "sectorPlaceholder": "Type & enter to add a sector",
+    "companyName": "Business Name",
+    "sector": "Sector",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "createPage": "Create User",
+    "editPage": "Edit User",
+    "header": "Users",
+    "name": "Name",
+    "email": "Email Account",
+    "phoneNumber": "Phone",
+    "password": "Password",
+    "role": "Role",
+    "actions": "Actions",
+    "username": "User Name",
+    "contact": "Account",
+    "userType": "User Type",
+    "createdAt": "Registered Date",
+    "status": "Status",
+    "usersManagement": "Users",
+    "phoneNo": "Phone Number",
+    "businesses": "Select organization",
+    "organization": "Organization",
+    "companyNamePlaceholder": "Enter Company Name",
+    "placeholder": {
+      "status": "Select Status",
+      "name": "Enter Name or Account",
+      "role": "Select Role",
+      "businesses": "Select organization"
+    },
+    "facebookLink": "Facebook",
+    "linkedinLink": "Linkedin",
+    "twitterLink": "Twitter",
+    "address": "Address",
+    "addressPlaceholder": "Enter Address"
+  },
+  "orders": {
+    "orderId": "Order ID",
+    "planCode": "Plan Code",
+    "header": "Orders",
+    "detail": "Order Detail",
+    "type": "User Type",
+    "name": "Customer",
+    "planName": "Plan Name",
+    "paymentDate": "Registered Date",
+    "paymentMethod": "Payment Method",
+    "price": "Monthly Price",
+    "duration": "Duration",
+    "paymentType": "Payment Type",
+    "status": "Status",
+    "courseName": "Course",
+    "programName": "Program",
+    "business": "Organization",
+    "updatedDate": "Updated Date",
+    "details": {
+      "name": "Plan Name",
+      "date": "Payment Date",
+      "price": "Price",
+      "billingStatus": "Status",
+      "failureReason": "Reason for failure",
+      "header": "Subscription history",
+      "planName": "Plan Name: {{planName}}",
+      "planCode": "Plan Code: {{planCode}}"
+    },
+    "placeholder": {
+      "name": "Enter Customer Name",
+      "planName": "Enter Plan Name",
+      "planCode": "Enter Plan Code",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "orderId": "Enter Order ID"
+    },
+    "orderSummary": {
+      "name": "Name",
+      "planCode": "Plan Code",
+      "monthlyPrice": "Monthly Price",
+      "price": "${{price}}",
+      "startDate": "First Payment",
+      "endDate": "Final Payment",
+      "nextBilling": "Next Payment"
+    }
+  },
+  "payouts": {
+    "header": "Payouts",
+    "title": "Payouts",
+    "payToOrganization": "Pay To Organization",
+    "totalRevenue": "Total Revenue",
+    "totalBalance": "Total Balance",
+    "totalPaid": "Total Paid",
+    "businessName": "Organization",
+    "lastedPaymentDate": "Recent Paid Date",
+    "createPage": "Pay To Organization",
+    "businesses": "Select organization",
+    "amount": "Amount",
+    "paymentDate": "Paid Date",
+    "note": "Note",
+    "payBtn": "Pay",
+    "placeholder": {
+      "businesses": "Select",
+      "name": "Enter Organization Name",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    }
+  },
+  "coach": {
+    "startupMentoring": "Startup Mentoring",
+    "name": "Startup Name",
+    "contact": "Contact",
+    "progress": "Progress",
+    "status": "Status",
+    "acceptDate": "Day Accepted",
+    "currentClass": "Current Class"
+  },
+  "services": {
+    "name": "Service Name",
+    "type": "Service Type",
+    "dateCreate": "Date Created",
+    "using": "Using",
+    "rate": "Rating",
+    "outstandingService": "Outstanding Service",
+    "serviceInformation": "Service Information"
+  },
+  "categories": {
+    "createPage": "Create Category",
+    "editPage": "Edit Category",
+    "header": "Categories",
+    "name": "Name",
+    "description": "Description",
+    "thumbnail": "Thumbnail",
+    "actions": "Actions"
+  },
+  "technicalCategories": {
+    "createPage": "Create Technical Category",
+    "editPage": "Edit Technical Category",
+    "header": "Technical Categories",
+    "name": "Name",
+    "description": "Description",
+    "logo": "Logo",
+    "documentationLink": "Documentation Link",
+    "actions": "Actions"
+  },
+  "componentTemplates": {
+    "createPage": "Create Component Template",
+    "editPage": "Edit Component Template",
+    "header": "Component Templates",
+    "description": "Description",
+    "thumbnail": "Thumbnail",
+    "tags": "Tags",
+    "unlockPrice": "Unlock Price",
+    "availableType": "Available Type",
+    "type": "Type",
+    "path": "Path",
+    "name": "Name",
+    "actions": "Actions"
+  },
+  "projectTemplates": {
+    "createPage": "Create Project Template",
+    "editPage": "Edit Project Template",
+    "header": "Project Templates",
+    "description": "Description",
+    "thumbnail": "Thumbnail",
+    "tags": "Tags",
+    "unlockPrice": "Unlock Price",
+    "availableType": "Available Type",
+    "name": "Name",
+    "categoryIds": "Categories",
+    "technicalCategoryIds": "Technical Categories",
+    "demoPath": "Demo Path",
+    "metaData": "Meta Data",
+    "projectType": "Project Type",
+    "actions": "Actions"
+  },
+  "mainProjectTemplates": {
+    "createPage": "Create Main Project Template",
+    "editPage": "Edit Main Project Template",
+    "header": "Main Project Templates",
+    "description": "Description",
+    "thumbnail": "Thumbnail",
+    "logo": "Logo",
+    "domain": "Domain",
+    "unlockPrice": "Unlock Price",
+    "availableType": "Available Type",
+    "name": "Name",
+    "categoryIds": "Categories",
+    "technicalCategoryIds": "Technical Categories",
+    "demoPath": "Demo Path",
+    "metaData": "Meta Data",
+    "projectType": "Project Type",
+    "googlePlayId": "Google Play Id",
+    "appStoreId": "AppStore Id",
+    "active": "Active",
+    "actions": "Actions"
+  },
+  "cms": {
+    "header": "CMS",
+    "type": "Type",
+    "cmsTitle": "Title",
+    "tools": "Tools",
+    "locale": "Locale",
+    "status": "Status",
+    "categories": "Categories",
+    "updatedAt": "Updated At",
+    "selectTemplate": "Do you want select this template?",
+    "url": "Page URL",
+    "currentSelectedTemplate": "Selected",
+    "updateBy": "Update by",
+    "openGraph": {
+      "header": "SEO Data",
+      "thumbnail": "Thumbnail",
+      "url": "SEO URL",
+      "urlPlaceholder": "ex: /home",
+      "title": "Title",
+      "titlePlaceholder": "ex: Home Page",
+      "description": "Description",
+      "descriptionPlaceholder": "ex: enouvo is good service..."
+    },
+    "pageContent": {
+      "header": "Page Contents"
+    },
+    "pageSection": {
+      "header": "Page Section",
+      "sectionTemp": "Section Template",
+      "title": "Title",
+      "description": "description",
+      "button": "Button",
+      "image": "Image"
+    },
+    "contentType": {
+      "title": "Content Type",
+      "page": "Static Pages",
+      "blogPage": "Blog Pages",
+      "pageDesc": "The Static Pages CMS is the list static web like home page, contact page,...",
+      "categoryPage": "Category Pages",
+      "categoryPageDesc": "The Category Pages CMS is the list static web on the product page with a filter by category.",
+      "menu": "Navigation Menu",
+      "menuDesc": "The Menu CMS is the list of header menus for each country.",
+      "productDetail": "Product Detail",
+      "categoryDetail": "Category Detail",
+      "contact": "Contact Information",
+      "contactDesc": "The Contact CMS is the contact detail for each country like Facebook, WhatsApp, phone number, support email,..."
+    },
+    "template": {
+      "section": "Section",
+      "banner": "Banner",
+      "menuItem": "Menu Item"
+    },
+    "tabs": {
+      "setting": "Setting",
+      "content": "Content"
+    },
+    "button": {
+      "addNewContact": "Add New Contact",
+      "addNewSection": "Add New Section",
+      "addNewMenu": "Add New Menu"
+    },
+    "contact": {
+      "header": "Contact",
+      "title": "Contact Name",
+      "value": "Contact content",
+      "image": "Image&Logo",
+      "titlePlaceholder": "Ex: Email, Phone Number,...",
+      "valuePlaceholder": "Ex: enouvo@gmail.com, +6012345678,..."
+    },
+    "menu": {
+      "header": "Menu",
+      "title": "Menu title",
+      "url": "URL",
+      "color": "Color",
+      "isLeft": "Left menu",
+      "titlePlaceholder": "Ex: Home, Contact,...",
+      "urlPlaceholder": "Ex: '/', '/contact',..."
+    },
+    "popup": {
+      "confirmPublish": "Do you want to publish this content?",
+      "confirmPublishDes": "",
+      "confirmUnPublish": "Do you want to un-publish this content?",
+      "confirmUnPublishDes": ""
+    }
+  },
+  "pageNotFound": "Page not found",
+  "noData": "No data",
+  "upload": {
+    "failed": "Upload Failed",
+    "uploading": "Uploading....",
+    "uploadText": "or drop files to upload",
+    "uploadBtn": "Add files"
+  },
+  "serviceTypes": {
+    "header": "Service Type",
+    "name": "Name",
+    "createPage": "Add New Service Type",
+    "editPage": "Edit Service Type",
+    "description": "Description"
+  },
+  "onboardings": {
+    "header": "Onboarding Videos",
+    "status": "Status",
+    "description": "Description",
+    "hidden": "Hidden",
+    "publish": "Publish",
+    "createPage": "Add New Video",
+    "editPage": "Edit Onboarding Video",
+    "videoLinks": "Video link"
+  },
+  "questionnairePages": {
+    "header": "Questionnaire Pages",
+    "createPage": "Add New Questionnaire Page",
+    "editPage": "Edit Questionnaire Page",
+    "name": "Name",
+    "prePage": "Previous Page",
+    "nextPage": "Next Page",
+    "numbQuestion": "Number of Questions",
+    "firstPage": "First page of questionnaire",
+    "lastPage": "Last page of questionnaire",
+    "isFirstPage": "Is first page of questionnaire",
+    "isLastPage": "Is last page of questionnaire",
+    "questions": "Questions",
+    "questionType": "Question Type",
+    "isRequired": "Required question",
+    "question": "Question",
+    "options": "Options (only required for multiple and single choice questions)",
+    "optionsPlaceholder": "Type & enter to add an option",
+    "addNew": "Add more questions",
+    "noData": "No questions",
+    "enterQuestions": "Please add questions for the questionnaire",
+    "text": "Text",
+    "onechoice": "Single Choice",
+    "multichoice": "Multiple Choice",
+    "rating": "Rating"
+  },
+  "businesses": {
+    "header": "Organizations",
+    "createPage": "Create Organization",
+    "businessName": "Organization Name",
+    "contactName": "Contact Name",
+    "contactEmail": "Contact Email",
+    "contactPayPalEmail": "Paypal email account",
+    "contactPhoneNumber": "Contact Phone",
+    "ENdescription": "EN Description",
+    "FRdescription": "FR Description",
+    "address": "Address",
+    "country": "Country",
+    "websiteLink": "Website",
+    "twitterLink": "Twitter",
+    "fanPageLink": "Facebook",
+    "linkedInLink": "LinkedIn ",
+    "createdAt": "Created Date",
+    "socialChannel": "Social Channel",
+    "create": "+ Create Organization",
+    "editPage": "Edit Organization",
+    "status": "Status",
+    "generalInformation": "General Information",
+    "placeholder": {
+      "description": "Enter description",
+      "country": "Select country",
+      "businessName": "Enter Organization Name",
+      "address": "Enter Address",
+      "websiteLink": "Enter Website link",
+      "twitterLink": "Enter Twitter link",
+      "fanPageLink": "Enter Facebook link",
+      "linkedInLink": "Enter LinkedIn link",
+      "contactName": "Enter Contact Name",
+      "contactEmail": "Enter Contact Email",
+      "contactPayPalEmail": "Enter Contact Paypal Email",
+      "contactPhoneNumber": "Enter Contact Phone",
+      "status": "Select Status"
+    },
+    "orders": {
+      "orderId": "Order ID",
+      "customer": "Customer",
+      "program": "Program Name",
+      "course": "Course Name",
+      "createdAt": "Registered Date",
+      "status": "Status",
+      "price": "Price",
+      "planCode": "Plan Code"
+    },
+    "customers": {
+      "username": "Customer",
+      "email": "Account",
+      "numberOfCourse": "Number Of Course",
+      "createdAt": "Registered Date"
+    },
+    "payouts": {
+      "amount": "Amount",
+      "paymentDate": "Payment Date",
+      "note": "Note",
+      "status": "Status"
+    }
+  },
+  "generateCMS": {
+    "header": "Generate program to landing page",
+    "btnGenerateCMS": "Generate ({{count}})"
+  },
+  "pageHeader": {
+    "descCustomers": "Customer section includes all details of each customer: Basic information, Current course, Resources, More Info, Tasks.",
+    "descStartupDetail": "Startup section includes all details of each startup: Basic information, Current course, Resources, More Info, Tasks.",
+    "descProgramDetail": "Program section includes course details with 3 main parts: Learn, Do, Get.",
+    "descUsers": "User Management section includes all details of users who registered account: startup, coach, service provider.",
+    "descOrders": "Order Management includes details of order made by Startup.",
+    "descSubscriptions": "Subscription Plan section contain list of Subscription Plan with details. Admin can add new subscription plan.",
+    "descSupportRequests": "Support Request includes all requests created from Contact Us section of landing page.",
+    "descGenerateCMS": "Generate CMS section is to create pages for client site",
+    "descBusiness": "Organization section includes all details of each organization: general information, orders, courses, subscription plans, customers, payouts",
+    "descBusinessDetail": "Organization section includes all details of each organization: general info, course, subscription plan, customer, payout",
+    "descPayouts": "Payout section shows payment log between Launch Portal and Organizations"
+  },
+  "auth": {
+    "title": "We make startups easy",
+    "description": "Get access to all the right coaching, investment, tool and human resources you need at the right time to build your startup faster with less risk."
+  },
+  "reports": {
+    "customers": "Customers",
+    "no": "No.",
+    "name": "Name",
+    "total": "Total",
+    "planCode": "Plan-Code",
+    "subscriber": "Subscriber",
+    "topRanking": "Top Ranking",
+    "organizations": "Organizations",
+    "header": "Reports",
+    "bestSubscribers": "Best Subscribers",
+    "price": "Price"
+  }
+}

@@ -1,0 +1,1303 @@
+{
+  "appInfo": {
+    "footer": "Anh Doan",
+    "name": "Administrateur de base"
+  },
+  "ZERO_RESULTS": "Adresse introuvable",
+  "sideBar": {
+    "dashboard": "Tableau de bord",
+    "user": "Utilisateur",
+    "cms": "CMS",
+    "customer": "Clients",
+    "settings": "Réglages",
+    "course": "Parcours",
+    "order": "Commande",
+    "payout": "Paiement",
+    "organization": "Organisation",
+    "supportRequest": "Demande de soutien",
+    "report": "Rapports"
+  },
+  "header": {
+    "profile": "Mon profil",
+    "pharmacy": "Info de la pharmacie",
+    "logout": "Se déconnecter"
+  },
+  "input": {
+    "grantType": {
+      "placeholder": "Type de subvention",
+      "validateMsg": {
+        "required": "Veuillez saisir votre type de subvention",
+        "invalid": "Le type de subvention n'est pas valide"
+      }
+    },
+    "username": {
+      "placeholder": "Nom d'utilisateur",
+      "validateMsg": {
+        "required": "Veuillez saisir votre nom d'utilisateur!"
+      }
+    },
+    "address": {
+      "name": "Adresse",
+      "placeholder": "Adresse",
+      "validateMsg": {
+        "required": "Veuillez saisir votre adresse!"
+      }
+    },
+    "fullName": {
+      "placeholder": "Nom et prénom",
+      "validateMsg": {
+        "required": "Veuillez saisir votre nom complet!"
+      }
+    },
+    "firstName": {
+      "name": "Prénom",
+      "placeholder": "Prénom",
+      "validateMsg": {
+        "required": "Veuillez saisir votre prénom!"
+      }
+    },
+    "lastName": {
+      "name": "Nom de famille",
+      "placeholder": "Nom de famille",
+      "validateMsg": {
+        "required": "Veuillez saisir votre nom de famille!"
+      }
+    },
+    "password": {
+      "placeholder": "Mot de passe",
+      "validateMsg": {
+        "required": "Veuillez saisir votre mot de passe!"
+      }
+    },
+    "confirmPassword": {
+      "placeholder": "Confirmez le mot de passe",
+      "validateMsg": {
+        "required": "Veuillez saisir votre mot de passe de confirmation!"
+      }
+    },
+    "email": {
+      "name": "Courriel ",
+      "placeholder": "Courriel ",
+      "validateMsg": {
+        "invalid": "Le courriel est invalide",
+        "required": "Veuillez saisir votre courriel!"
+      }
+    },
+    "phoneNumber": {
+      "name": "Numéro de téléphone",
+      "placeholder": "Numéro de téléphone",
+      "validateMsg": {
+        "invalid": "Le numéro de téléphone n'est pas valide",
+        "required": "Veuillez saisir votre numéro de téléphone!"
+      }
+    },
+    "country": {
+      "name": "Pays",
+      "placeholder": "Pays",
+      "validateMsg": {
+        "invalid": "Le pays est invalide",
+        "required": "Veuillez saisir votre pays !"
+      }
+    },
+    "city": {
+      "name": "Ville",
+      "placeholder": "Ville",
+      "validateMsg": {
+        "invalid": "La ville est invalide",
+        "required": "S'il vous plaît entrer votre ville!"
+      }
+    },
+    "district": {
+      "name": "Quartier",
+      "placeholder": "Quartier",
+      "validateMsg": {
+        "invalid": "Le quartier est invalide",
+        "required": "Veuillez entrer votre quartier!"
+      }
+    },
+    "state": {
+      "name": "État",
+      "placeholder": "État",
+      "validateMsg": {
+        "invalid": "L'état est invalide",
+        "required": "S'il vous plaît entrer votre état!"
+      }
+    },
+    "Address": {
+      "name": "Adresse",
+      "placeholder": "Adresse",
+      "validateMsg": {
+        "invalid": "L'adresse est invalide",
+        "required": "Veuillez saisir votre adresse!"
+      }
+    },
+    "zipCode": {
+      "name": "Code postal",
+      "placeholder": "Code postal",
+      "validateMsg": {
+        "invalid": "Le code postal n'est pas valide",
+        "required": "Veuillez saisir votre code postal!"
+      }
+    },
+    "promoCode": {
+      "placeholder": "Code promo"
+    },
+    "subscribe": {
+      "placeholder": "Entrer votre Courriel"
+    },
+    "cardNo": {
+      "name": "Non de carte",
+      "validateMsg": {
+        "invalid": "Le numéro de la carte n'est pas valide",
+        "required": "Veuillez saisir le numéro de la carte !"
+      }
+    },
+    "expiredDate": {
+      "name": "Date d'expiration",
+      "placeholder": "Sélectionner...",
+      "validateMsg": {
+        "invalid": "La date est invalide",
+        "required": "Veuillez sélectionner la date!"
+      }
+    },
+    "securityCode": {
+      "name": "Code de sécurité",
+      "placeholder": "Entrez CVC",
+      "validateMsg": {
+        "invalid": "Le code de sécurité est invalide",
+        "required": "Veuillez saisir le code de sécurité!"
+      }
+    },
+    "shippingMethod": {
+      "validateMsg": {
+        "invalid": "La méthode d'expédition n'est pas valide",
+        "required": "Veuillez sélectionner la méthode d'expédition!"
+      }
+    },
+    "paymentMethod": {
+      "validateMsg": {
+        "invalid": "Méthode de paiement n'est pas valide",
+        "required": "Veuillez sélectionner la méthode de paiement!"
+      }
+    }
+  },
+  "form": {
+    "btn": {
+      "add": "Ajouter de nouveau",
+      "edit": "Modifier"
+    }
+  },
+  "products": {
+    "id": "Identité du produit",
+    "name": "Nom du produit",
+    "description": "Description du produit"
+  },
+  "login": {
+    "title": "Connexion",
+    "subTitle": "Des applications mobiles et des sites web innovants pour les écoles et les parents afin de prendre soin de nos enfants.",
+    "rememberMe": "Se souvenir de moi",
+    "loginBtn": "Se connecter",
+    "yourEmail": "Votre courriel",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "password": "Mot de passe"
+  },
+  "register": {
+    "title": "S'inscrire",
+    "registerBtn": "S'inscrire"
+  },
+  "forgotPassword": {
+    "title": "Mot de passe oublié",
+    "success": {
+      "title": "Réinitialiser le succès du mot de passe!",
+      "description": "Veuillez vérifier votre courriel et créer un nouveau mot de passe."
+    }
+  },
+  "action": "Action",
+  "dashboard": {
+    "startUpChart": "Tableau de démarrage actif",
+    "title": "Tableau de bord",
+    "header": "Tableau de bord",
+    "reviewChart": "Revoir le tableau"
+  },
+  "settings": {
+    "header": "Réglages"
+  },
+  "customers": {
+    "document": "Document",
+    "startupUpload": "Téléchargement pour votre startup",
+    "tasks": "Tâches",
+    "resources": "Ressources",
+    "moreInfo": "Plus d'informations",
+    "currentLesson": "Leçon actuelle",
+    "currentProgram": "Programme actuel",
+    "detail": "Détail",
+    "startupQuestionnaireAnswer": "Réponse au questionnaire sur votre Startup",
+    "info": "Info",
+    "paymentInfo": "Informations sur le paiement",
+    "coach": "Coach",
+    "serviceProvider": "Fournisseur de services",
+    "name": "Nom du client",
+    "email": "Compte",
+    "numberOfCourse": "Nombre de parcours",
+    "header": "Clients",
+    "createdAt": "Date d'inscription",
+    "cancelledSubscription": "L'abonnement a été annulé",
+    "placeholder": {
+      "name": "Entrez le nom du client",
+      "status": "Sélectionner le statut",
+      "endDate": "Date de fin",
+      "startDate": "Date de début",
+      "email": "Entrez le compte client"
+    },
+    "editPage": "Modifier le client",
+    "courseName": "Parcours",
+    "progress": "Progrès",
+    "subscribedAt": "Date d'inscription",
+    "organization": "Organisation",
+    "currentPrograms": {
+      "header": "Parcours actuel"
+    },
+    "generalInformation": "Informations générales",
+    "privateContact": "Contact privé",
+    "sectors": "Secteur",
+    "socialChannel": "Médias sociaux"
+  },
+  "home": {
+    "revenue": {
+      "desc": "Revenu global"
+    },
+    "title": {
+      "orders": "Commandes",
+      "overview": "Vue d'ensemble",
+      "users": "Utilisateurs",
+      "revenue": "Revenu"
+    },
+    "summary": {
+      "user": "Utilisateurs",
+      "order": "Commandes",
+      "artists": "Artistes",
+      "artworks": "Œuvres d'art",
+      "galleries": "Galeries",
+      "business": "Entreprise",
+      "totalOrder": "Commande totale",
+      "totalDoneOrder": "Commande effectuée",
+      "paidMoney": "Argent payé"
+    },
+    "chart": {
+      "totalRevenue": "Revenu total",
+      "day": "Jour",
+      "week": "Semaine",
+      "month": "Mois",
+      "year": "Année",
+      "title": "Revenu",
+      "sales": "Ventes",
+      "profit": "Bénéfice",
+      "businesses": "Entreprise",
+      "programs": "Programme",
+      "orders": "Commande",
+      "customers": "Client",
+      "startUps": "Startup",
+      "coaches": "Coach ",
+      "providers": "Fournisseur",
+      "totalOrder": "Commande totale"
+    },
+    "map": {
+      "title": "Top Ventes mondiales"
+    },
+    "country": {
+      "buenosAires": "Buenos Aires",
+      "brasilia": "Brasilia",
+      "santiago": "Santiago",
+      "bogota": "Bogota"
+    },
+    "detailedSummary": {
+      "monthRevenue": "Revenus de ce mois",
+      "chartRevenue": {
+        "revenue": "Revenu"
+      },
+      "customer": "Nouveaux clients",
+      "product": "Produit populaire"
+    }
+  },
+  "summaryCard": {
+    "up": "En hausse par rapport à hier",
+    "down": "En baisse par rapport à hier"
+  },
+  "detailSummaryCard": {
+    "up": "En hausse par rapport au mois dernier",
+    "down": "En baisse depuis le mois dernier"
+  },
+  "productDetail": {
+    "pageTitle": "Détail du produit",
+    "features": "Fonctionnalité",
+    "satisfiedCustomer": "Client satisfait"
+  },
+  "relatedProducts": {
+    "title": "Produits connexes"
+  },
+  "productsView": {
+    "title": "Vue des produits"
+  },
+  "profile": {
+    "editProfile": "Modifier le profil",
+    "changePassword": "Changer le mot de passe",
+    "header": "Profil",
+    "profileInfo": "Informations sur le profil",
+    "email": "Courriel",
+    "uploadAvatar": "Télécharger l'avatar",
+    "username": "Nom d'utilisateur",
+    "firstName": "Prénom",
+    "address": "Adresse",
+    "lastName": "Nom de famille",
+    "gender": "Sexe",
+    "phone": "Numéro de téléphone",
+    "summary": "Résumé",
+    "note": "Votre note",
+    "fullName": "Nom et prénom",
+    "birthday": "Anniversaire",
+    "national": "Nationale",
+    "facebookLink": "Lien Facebook",
+    "oldPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmez le mot de passe",
+    "message": {
+      "oldPassword": "Veuillez saisir votre mot de passe actuel!",
+      "newPassword": "Veuillez saisir votre mot de passe!",
+      "confirmPassword": "Veuillez saisir votre mot de passe de confirmation!",
+      "error": "Les deux mots de passe que vous avez saisis ne correspondent pas!"
+    }
+  },
+  "summary": {
+    "businesses": "Total des organisations",
+    "customers": "Total des clients",
+    "courses": "Total des parcours",
+    "orders": "Total des commandes",
+    "startUp": "Startup",
+    "inProgress": "En cours",
+    "waitingFeedback": "En attente de commentaires",
+    "done": "Terminé",
+    "cancelled": "Annulé",
+    "coach": "Coach",
+    "program": "parcours",
+    "service": "Service",
+    "revenues": "Total des revenus",
+    "keyCourses": "parcours",
+    "keyOrders": "commandes",
+    "keyRevenues": "revenus",
+    "keyCustomers": "clients",
+    "keyBusinesses": "organisations"
+  },
+  "notifications": {
+    "header": "Notifications",
+    "pharmacy": "Pharmacie",
+    "send": "Envoi",
+    "prepare": "Préparation",
+    "delivery": "Livraison"
+  },
+  "admins": {
+    "createPage": "Créer admin"
+  },
+  "isActive": {
+    "deactive": "Inactif",
+    "active": "Actif"
+  },
+  "isDisabled": {
+    "disabled": "Désactivé",
+    "notDisabled": "Non désactivé"
+  },
+  "role": {
+    "admin": "Admin",
+    "superAdmin": "Super Admin",
+    "startup": "Startup",
+    "customer": "Customer",
+    "coach": "Coach",
+    "coaches": "Coache",
+    "provider": "Prestataire de services",
+    "organization": "Organisation"
+  },
+  "button": {
+    "open": "Ouvrir",
+    "upload": "Télécharger",
+    "generate": "Générer",
+    "genCMS": " Générer un programme",
+    "create": "Créer",
+    "add": "Ajouter",
+    "edit": "Modifier",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "ok": "Ok",
+    "search": "Rechercher",
+    "reset": "Réinitialiser",
+    "resetMyPassword": "Réinitialiser le mot de passe",
+    "submit": "Soumettre",
+    "call": "Appelez",
+    "loadMore": "Charger plus...",
+    "sentInvite": "Invitation envoyée",
+    "resendInvite": "Renvoyer l'invitation",
+    "editProfile": "Modifier le profil",
+    "pin": "Épingler",
+    "unpin": "Désépingler",
+    "filter": "Filtrer",
+    "clearFilter": "Effacer",
+    "addToCart": "Ajouter au panier",
+    "addedToCart": "Ajouté au panier",
+    "updateToCart": "Mettre à jour le panier",
+    "apply": "Appliquer",
+    "subscribe": "S'abonner",
+    "change": "Modifier",
+    "confirm": "Confirmer",
+    "placeYourOrder": "Passer votre commande",
+    "accept": "Accepter",
+    "reject": "Rejeter",
+    "changePassword": "Modifier le mot de passe",
+    "duplicate": "Cloner un nouveau",
+    "reOpen": "Ouvrir à nouveau",
+    "setDefault": "Défaut",
+    "download": "Télécharger",
+    "save": "Sauvegarder",
+    "publish": "Publier"
+  },
+  "popup": {
+    "noData": "Pas de données",
+    "alertDelete": "Suprimmer les données",
+    "alertDeleteDes": "Voulez-vous supprimer l'élément {{customMessage}}?"
+  },
+  "error": {
+    "validateType": "Invalide",
+    "title": "Oups!",
+    "description": "Quelque chose ne va pas!",
+    "phone": "L'entrée téléphonique n'est pas valide !",
+    "waitingUpdate": "En attente de mises à jour",
+    "required": "Ce champ est requis",
+    "url": "Veuillez entrer une url valide"
+  },
+  "success": {
+    "title": "Réussi!",
+    "description": "La mise à jour est réussie !",
+    "users": "Créer un utilisateur avec succès",
+    "businesses": "Créer un organisation avec succès",
+    "programs": "Créer un parcours avec succès",
+    "subscriptionPlans": "Créer un plan d'abonnement avec succès",
+    "serviceTypes": "Créer un type de service avec succès",
+    "programPhases": "Créer un programme avec succès",
+    "periods": "Ajouter un semaine avec succès",
+    "learns": "Ajouter un concept d'apprentissage avec succès",
+    "todos": "Ajouter un faire avec succès",
+    "todoSteps": "Ajouter une étape à faire avec succès",
+    "gets": "Ajouter un fournisseur de service avec succès",
+    "onboardings": "Ajouter un nouvelle vidéo avec succès",
+    "questionnairePages": "Ajouter un pages du questionnaire avec succès",
+    "comments": "Ajouter un commentaire avec succès",
+    "payouts" : "Payer à l'organisation avec succès",
+    "cms": "Créer une page avec succès"
+  },
+  "tabs": {
+    "categories": "Catégories",
+    "technicalCategories": "Catégories techniques",
+    "componentTemplates": "Modèles de composants",
+    "projectTemplates": "Modèles de projet",
+    "mainProjectTemplates": "Modèles de projets principaux",
+    "serviceTypes": "Type de service",
+    "onboardings": "Vidéo d'accueil",
+    "questionnairePages": "Page questionnaire",
+    "subscriptionPlans": "Plan d'abonnement"
+  },
+  "statuses": {
+    "name": "Nom",
+    "color": "Couleur",
+    "isActive": "Statut",
+    "createPage": "Créer un statut",
+    "editPage": "Modifier le statut"
+  },
+  "gender": {
+    "title": "Sexe",
+    "male": "Homme",
+    "female": "Femme",
+    "other": "Autre"
+  },
+  "status": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "inprogress": "En cours",
+    "pending": "En attente",
+    "completed": "Complété",
+    "developing": "En cours de développement",
+    "approved": "Approuvé",
+    "waitingForFeedback": "En attente de commentaires",
+    "done": "Terminé",
+    "cancel": "Annuler",
+    "success": "Success",
+    "fail": "Fail",
+    "error": "Error"
+  },
+  "placeholder": {
+    "undefined": "sélectionner..."
+  },
+  "text": {
+    "or": "OR",
+    "googleAddress": "Adresse Google (utiliser la latitude et la longitude détectées)"
+  },
+  "currencyUnit": {
+    "text": "VND",
+    "sign": "$"
+  },
+  "overallRating": {
+    "text": "Évaluation globale",
+    "start": "Démarrer"
+  },
+  "reviews": {
+    "text": "Commentaires",
+    "totalReview": "Total des commentaires"
+  },
+  "promoCode": {
+    "name": "Code promo",
+    "none": "AUCUN",
+    "title": "Vous avez un code promo ?",
+    "description": "Si vous avez un code promo, vous pouvez bénéficier de la réduction !",
+    "applySuccess": "Appliqué avec succès"
+  },
+  "payment": {
+    "totalPayment": "Paiement total",
+    "total": "Total",
+    "subTotal": "Sous-total",
+    "shipping": "Expédition"
+  },
+  "payType": {
+    "paymentByCash": "Paiement en espèces",
+    "paymentByBank": "Paiement par banque"
+  },
+  "subscriptionPlans": {
+    "phaseId": "Programme",
+    "programId": "Parcours",
+    "planCode": "Code du plan",
+    "featuresPlaceholder": "Tapez & entrez pour ajouter une fonction",
+    "features": "Ce que vous apprendrez dans ce programme",
+    "createPage": "Créer un plan d'abonnement",
+    "editPage": "Modifier un plan d'abonnement",
+    "showPage": "Détail du plan d'abonnement",
+    "header": "Plan d'abonnement",
+    "title": "Plans d'abonnement",
+    "name": "Nom du plan",
+    "price": "Prix mensuel",
+    "program": "Parcours",
+    "programPhase": "Programme",
+    "quantity": "Durée du parcours (en mois)",
+    "monthNumber": "Nombre de mois",
+    "unit": "Unité",
+    "description": "Contenu marketing",
+    "placeholderQuantity": "Durée du parcours",
+    "business": "Organisation",
+    "create": "Créer"
+  },
+  "medias": {
+    "attachedImage": "Image(s) jointe(s)",
+    "attachedFile": "Fichier(s) joint(s)",
+    "empty": "Aucun fichier joint"
+  },
+  "programs": {
+    "noPrograms": "Aucun programme",
+    "shortDescription": "Ajouter une courte description du parcours",
+    "shortName": "Entrez le nom du parcours",
+    "content": "Ce que vous allez apprendre de ce parcours",
+    "content2": "Contenu",
+    "contentPlaceholder": "Ajouter chaque fonctionnalité avec le bouton Enter",
+    "getDataPlaceholder": "Ajouter chaque fonctionnalité avec le bouton Enter",
+    "recommendDataPlaceholder": "Ajouter chaque fonctionnalité avec le bouton Enter",
+    "shortContent": "Ajouter le contenu du parcours",
+    "info": "Informations sur le parcours",
+    "phaseDetails": "Détails du programme",
+    "images": "Image du parcours",
+    "numberOfPhase": "Nombre de programme(s)",
+    "businesses": "Sélectionner une organisation",
+    "businessName": "Organisation",
+    "createdAt": "Date de création",
+    "genCmsSuccessMessage": "Générer le programme sur la page de destination avec succès",
+    "phases": {
+      "images": "Images du programme",
+      "marketingContent": "Contenu marketing",
+      "info": "Informations sur le programme",
+      "subscriptionPlan": "Plan d'abonnement",
+      "name": "Nom du programme",
+      "addNew": "Ajouter un programme",
+      "week": "Durée du programme (en semaines)",
+      "noData": "Pas encore de données sur le programme",
+      "enterPhase": "Entrez le nombre de programme(s) pour obtenir un modèle pré-rempli.",
+      "descriptionPlaceholder": "Ajouter une description du programme",
+      "namePlaceholder": "Entrer le nom du programme"
+    },
+    "subscriptionPlan": {
+      "quantity": "Nombre de mois",
+      "price": "Prix mensuel",
+      "features": "Ce programme vous convient si",
+      "description": "Contenu marketing",
+      "placeholderDescription": "Ajouter du contenu pour le programme",
+      "getData": "Ce que vous obtiendrez",
+      "learnData": "Ce que vous apprendrez de ce programme",
+      "recommendData": "Ce programme est bon pour vous si"
+    },
+    "placeholder": {
+      "id": "Entrez l'identifiant",
+      "isActive": "Sélectionner le statut",
+      "name": "Entrez le nom du parcours",
+      "phaseNumber": "Entrez le nombre de programme(s)",
+      "businessName": "Sélectionner une organisation",
+      "startDate": "Date de début",
+      "endDate": "Date de fin"
+    },
+    "businessesEdit": "Organisation",
+    "phaseTitle": "programme",
+    "header": "Parcours",
+    "create": "+ Créer le parcours",
+    "id": "ID",
+    "createFirst": "+ Créer votre premier parcours",
+    "name": "Parcours",
+    "isActive": "Statut",
+    "phase": "Programme: {{phaseName}}",
+    "phaseNo": "Nombre de programme(s)",
+    "week": "Semaine",
+    "description": "Description",
+    "price": "Prix",
+    "createPage": "Créer un parcours",
+    "editPage": "Modifier le parcours",
+    "phaseNumber": "Nombre de programme(s)",
+    "detail": "Détail du parcours"
+  },
+  "programPhases": {
+    "features": "Caractéristiques du programme",
+    "subscriptionPlan": "Plan d'abonnement",
+    "program": "Nom du parcours",
+    "genCMS": "Sélectionnez les parcours à générer vers la page de destination",
+    "header": "Programmes",
+    "id": "ID du programme",
+    "phaseNumber": "Ordre de tri",
+    "name": "Nom du programme",
+    "description": "Description",
+    "status": "Statut",
+    "action": "Action",
+    "createPage": "Ajouter un nouveau programme",
+    "editPage": "Modifier",
+    "createFirst": "+Créer votre premier parcours",
+    "create": "Ajouter un programme",
+    "totalPeriod": "Durée du programme (en semaines)",
+    "placeholderName": "Entrer le nom du programme",
+    "placeholderPhaseNumber": "Entrez le numéro de classement du programme",
+    "placeholderDescription": "Saisir la description du programme",
+    "placeholderWeek": "Saisir le nombre de semaines",
+    "view": "Voir les détails >",
+    "phasesTitle": "Programme {{phaseNumber}}: {{phaseName}}",
+    "week": "semaine(s)",
+    "month": "mois"
+  },
+  "periods": {
+    "header": "Semaines",
+    "createPage": "Ajouter une semaine",
+    "editPage": "Modifier la semaine"
+  },
+  "weeks": {
+    "periodNumber": "Numéro de semaine",
+    "header": "Semaines",
+    "name": "Nom",
+    "description": "Description",
+    "placeholderName": "Entrer le nom de la période",
+    "program": "Programme: {{programName}}",
+    "placeholderDescription": "Entrez la description de la période",
+    "learns": {
+      "rankNumber": "Classement",
+      "addNew": "Créer un nouveau concept",
+      "header": "Apprendre",
+      "id": "ID",
+      "title": "Nom du concept",
+      "description": "Description",
+      "actions": "Action",
+      "createFirst": "+ Ajouter un concept",
+      "createMore": "+ Ajouter un concept supplémentaire",
+      "createTitle": "Concept",
+      "editTitle": "Modifier le concept",
+      "conceptDescription": "Description du concept",
+      "videoLink": "Lien vidéo",
+      "uploadFile": "Télécharger votre fichier",
+      "conceptDetails": {
+        "title": "Détail du concept"
+      },
+      "addLearningConcept": "Ajouter un concept d'apprentissage"
+    },
+    "gets": {
+      "provider": "Nom du contact",
+      "header": "Obtenir",
+      "id": "ID",
+      "logo": "Logo",
+      "name": "Nom",
+      "email": "Courriel ",
+      "phoneNo": "Numéro de téléphone",
+      "description": "Description",
+      "actions": "Action",
+      "createFirst": "+ Ajouter un fournisseur de services",
+      "uploadFile": "Logo de la société",
+      "companyName": "Nom de l'entreprise",
+      "serviceType": "Type de service",
+      "providerType": "Service",
+      "link": "URL Web",
+      "createTitle": "Ajouter un fournisseur de service",
+      "editTitle": "Modifier le fournisseur de services",
+      "getLinkBtn": "Copier le lien",
+      "message": "Copié dans le presse-papiers",
+      "placeholder": {
+        "provider": "Sélectionner le fournisseur",
+        "companyName": "Saisir le nom de la société",
+        "email": "Saisir l'adresse courriel",
+        "phoneNo": "Entrez le numéro de téléphone",
+        "serviceType": "Entrez ou choisissez le type de service",
+        "link": "Saisir l'URL du site Web",
+        "description": "Saisir la description"
+      },
+      "addService": "Ajouter un fournisseur de service"
+    },
+    "todos": {
+      "todoSteps": "Étapes à faire",
+      "link": "Suivre l'URL",
+      "attached": "Documents joints",
+      "header": "À faire",
+      "title": "Faire",
+      "name": "Traiter",
+      "rankNo": "Priorité",
+      "createPage": "Ajouter à faire",
+      "editPage": "Modifier à faire",
+      "links": "Télécharger le fichier",
+      "placeholder": {
+        "name": "Entrez le nom du processus",
+        "rankNo": "Entrer le numéro de rang",
+        "link": "Entrer l'URL"
+      },
+      "addTodos": "Ajouter à faire"
+    },
+    "todoSteps": {
+      "header": "Étape de la tâche",
+      "add": "Ajouter une étape",
+      "createPage": "Ajouter une nouvelle étape",
+      "editPage": "Modifier l'étape",
+      "title": "Titre",
+      "addOptions": "Ajouter une option",
+      "placeholder": {
+        "name": "Entrer le titre de l'étape"
+      },
+      "options": "Options",
+      "optionsPlaceholder": "Tapez & Entrez pour ajouter plus d'options",
+      "name": "Description"
+    }
+  },
+  "startUps": {
+    "document": "Document",
+    "startupUpload": "Téléchargement pour votre startup",
+    "tasks": "Tâches",
+    "moreInfo": "Plus d'informations",
+    "currentProgram": "Programme actuel",
+    "serviceProvider": "Prestataire de services",
+    "coach": "Coach",
+    "paymentInfo": "Informations sur le paiement",
+    "info": "Info",
+    "startupQuestionnaireAnswer": "Réponses au questionnaire de Startup",
+    "program": "Parcours",
+    "editPage": "Modifier la startup",
+    "header": "Startup",
+    "name": "Startup",
+    "detail": "Détail",
+    "sector": "Secteur",
+    "contact": "Contact",
+    "registrationDate": "Date d'enregistrement",
+    "progress": "Progrès",
+    "status": "Statut",
+    "placeholder": {
+      "name": "Entrez le nom de la startup ou le nom du contact",
+      "sector": "Sélectionnez le secteur",
+      "registrationDate": "Date d'enregistrement",
+      "progress": "Sélectionnez le progrès",
+      "status": "Sélectionnez le statut"
+    },
+    "currentPrograms": {
+      "header": "Parcours actuel",
+      "week": "Semaine",
+      "description": "Description",
+      "progress": "Progrès",
+      "status": "Statut",
+      "programTitle": "Parcours: {{programName}}",
+      "phaseTitle": "Programme {{phaseNumber}}: {{phaseName}}",
+      "progressNumber": "{{progress}}%",
+      "phaseOptions": "Programme {{phase}}"
+    },
+    "activities": {
+      "name": "Nom de la tâche",
+      "type": "Étape",
+      "time": "Date d'achèvement",
+      "programPhases": "Programme",
+      "addComment": "ajouter un commentaire",
+      "deleteComment": "supprimer un commentaire",
+      "doneConcept": "appris",
+      "doneTodoStep": "franchi une étape dans",
+      "cancelTodoStep": "annulé une étape",
+      "cancelConcept": "annulé un concept",
+      "addRating": "ajouter un tarif",
+      "updateRating": "mettre à jour un taux",
+      "skipTodo": "sauté une tâche en",
+      "skipConcept": "sauté un concept en",
+      "doneTodo": "fait une tâche en"
+    },
+    "resources": {
+      "title": "Ressources",
+      "fileName": "Nom du fichier",
+      "phaseName": "Programme",
+      "week": "Semaine",
+      "updatedAt": "Date de mise à jour"
+    },
+    "advancedInfo": {
+      "monthlyPayment": "Paiement mensuel",
+      "firstPayment": "Premier paiement",
+      "nextPayment": "Paiement suivant",
+      "finalPayment": "Paiement final",
+      "monthlyPrice": "{{monthlyPrice}}/mois ({{duration}} mois engagement)"
+    }
+  },
+  "supports": {
+    "header": "Demandes d'assistance",
+    "name": "Nom",
+    "email": "Adresse courriel ",
+    "country": "Pays",
+    "message": "Demande",
+    "company": "Nom de la société",
+    "editPage": "Demande de détails",
+    "placeholder": {
+      "name": "Entrez le nom",
+      "email": "Entrer l'adresse courriel",
+      "country": "Sélectionnez le pays",
+      "startDate": "Date de début",
+      "endDate": "Date de fin"
+    },
+    "createdAt": "Date de création"
+  },
+  "users": {
+    "socialMedia": "Médias sociaux",
+    "privateContact": "Contact privé",
+    "generalInformation": "Informations générales",
+    "userDetail": "Détails de l'utilisateur",
+    "privateEmail": "Email privé",
+    "privatePhone": "Téléphone privé",
+    "sectorPlaceholder": "Tapez et entrez pour ajouter un secteur",
+    "companyName": "Nom de l'entreprise",
+    "sector": "Secteur",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "createPage": "Créer un utilisateur",
+    "editPage": "Modifier un utilisateur",
+    "header": "Utilisateurs",
+    "name": "Nom",
+    "email": "Compte Email",
+    "phoneNumber": "Téléphone",
+    "password": "Mot de passe",
+    "role": "Rôle",
+    "actions": "Actions",
+    "username": "Nom de l'utilisateur",
+    "contact": "Compte",
+    "userType": "Type d'utilisateur",
+    "createdAt": "Date d'inscription",
+    "status": "Statut",
+    "usersManagement": "Utilisateurs",
+    "phoneNo": "Numéro de téléphone",
+    "businesses": "Sélectionnez une organisation",
+    "organization": "Organisation",
+    "companyNamePlaceholder": "Entrez le nom de l'entreprise",
+    "placeholder": {
+      "status": "Sélectionnez le statut",
+      "name": "Entrez nom, courriel",
+      "role": "Sélectionnez le rôle",
+      "businesses": "Sélectionnez l'organisation"
+    },
+    "facebookLink": "Facebook",
+    "linkedinLink": "Linkedin",
+    "twitterLink": "Twitter",
+    "address": "Adresse"
+  },
+  "orders": {
+    "orderId": "ID de la commande",
+    "planCode": "Code du plan",
+    "header": "Commandes",
+    "detail": "Détail de la commande",
+    "type": "Type d'utilisateur",
+    "name": "Client",
+    "planName": "Nom du plan",
+    "updatedDate": "Date de mise à jour",
+    "paymentDate": "Date d'enregistrement",
+    "paymentMethod": "Mode de paiement",
+    "price": "Prix mensuel",
+    "duration": "Durée",
+    "paymentType": "Type de paiement",
+    "status": "Statut",
+    "courseName": "Parcours",
+    "programName": "Programme",
+    "business": "Organisation",
+    "details": {
+      "name": "Nom du plan",
+      "date": "Date du paiement",
+      "price": "Prix",
+      "billingStatus": "Statut",
+      "failureReason": "Raison de l'échec",
+      "header": "Historique de l'abonnement",
+      "planName": "Nom du plan: {{planName}}",
+      "planCode": "Code du plan: {{planCode}}"
+    },
+    "placeholder": {
+      "name": "Entrez le nom du client",
+      "planName": "Entrez le nom du plan",
+      "planCode": "Entrez le code du plan",
+      "startDate": "Date de début",
+      "endDate": "Date de fin",
+      "orderId": "Entrer l'ID de la commande"
+    },
+    "orderSummary": {
+      "name": "Nom",
+      "planCode": "Code du plan",
+      "monthlyPrice": "Prix mensuel",
+      "price": "${{price}}",
+      "startDate": "Premier paiement",
+      "endDate": "Paiement final",
+      "nextBilling": "Paiement suivant"
+    }
+  },
+  "payouts": {
+    "title": "Paiements",
+    "payToOrganization": "Payez à l'organisme",
+    "header": "Paiements",
+    "totalRevenue": "Revenu total",
+    "totalBalance": "Solde total",
+    "totalPaid": "Total des paiements",
+    "businessName": "Organisation",
+    "lastedPaymentDate": "Date du dernier paiement",
+    "createPage": "Payez à l'organisme",
+    "businesses": "Sélectionnez l'organisation",
+    "amount": "Montant",
+    "paymentDate": "Date du paiement",
+    "note": "Note",
+    "payBtn": "Payer",
+    "placeholder": {
+      "businesses": "Sélectionnez",
+      "name": "Entrez le nom de l'organisation",
+      "startDate": "Date de début",
+      "endDate": "Date de fin"
+    }
+  },
+  "coach": {
+    "startupMentoring": "Mentorat pour les startups",
+    "name": "Nom de la startup",
+    "contact": "Contact",
+    "progress": "Progrès",
+    "status": "Statut",
+    "acceptDate": "Jour d'acceptation",
+    "currentClass": "Classe actuelle"
+  },
+  "services": {
+    "name": "Nom du service",
+    "type": "Type de service",
+    "dateCreate": "Date de création",
+    "using": "Utilisation",
+    "rate": "Rating",
+    "outstandingService": "Service en suspens",
+    "serviceInformation": "Informations sur le service"
+  },
+  "categories": {
+    "createPage": "Créer une catégorie",
+    "editPage": "Modifier une catégorie",
+    "header": "Catégories",
+    "name": "Nom",
+    "description": "Description",
+    "thumbnail": "Vignette",
+    "actions": "Actions"
+  },
+  "technicalCategories": {
+    "createPage": "Créer une catégorie technique",
+    "editPage": "Modifier une catégorie technique",
+    "header": "Catégories techniques",
+    "name": "Nom",
+    "description": "Description",
+    "logo": "Logo",
+    "documentationLink": "Lien vers la documentation",
+    "actions": "Actions"
+  },
+  "componentTemplates": {
+    "createPage": "Créer un modèle de composant",
+    "editPage": "Modifier un modèle de composant",
+    "header": "Modèles de composants",
+    "description": "Description",
+    "thumbnail": "Vignettes",
+    "tags": "Balises",
+    "unlockPrice": "Déverrouiller le prix",
+    "availableType": "Type disponible",
+    "type": "Type",
+    "path": "Chemin d'accès",
+    "name": "Nom",
+    "actions": "Actions"
+  },
+  "projectTemplates": {
+    "createPage": "Créer un modèle de projet",
+    "editPage": "Modifier un modèle de projet",
+    "header": "Modèles de projet",
+    "description": "Description",
+    "thumbnail": "Vignette",
+    "tags": "Étiquettes",
+    "unlockPrice": "Déverrouiller le prix",
+    "availableType": "Type disponible",
+    "name": "Nom",
+    "categoryIds": "Catégories",
+    "technicalCategoryIds": "Catégories techniques",
+    "demoPath": "Chemin de la démo",
+    "metaData": "Données Méta",
+    "projectType": "Type de projet",
+    "actions": "Actions"
+  },
+  "mainProjectTemplates": {
+    "createPage": "Créer un modèle de projet principal",
+    "editPage": "Modifier le modèle de projet principal",
+    "header": "Modèles de projets principaux",
+    "description": "Description",
+    "thumbnail": "Vignette",
+    "logo": "Logo",
+    "domain": "Domaine",
+    "unlockPrice": "Prix de déverrouillage",
+    "availableType": "Type disponible",
+    "name": "Nom",
+    "categoryIds": "Catégories",
+    "technicalCategoryIds": "Catégories techniques",
+    "demoPath": "Chemin vers la démo",
+    "metaData": "Données Méta",
+    "projectType": "Type de projet",
+    "googlePlayId": "ID Google Play",
+    "appStoreId": "Id AppStore",
+    "active": "Actif",
+    "actions": "Actions"
+  },
+  "cms": {
+    "header": "CMS",
+    "type": "Type",
+    "cmsTitle": "Titre",
+    "tools": "Outils",
+    "locale": "Lieu",
+    "status": "Statut",
+    "categories": "Catégories",
+    "updatedAt": "Mis à jour à",
+    "selectTemplate": "Voulez-vous sélectionner ce modèle?",
+    "url": "URL de la page",
+    "currentSelectedTemplate": "Sélectionné",
+    "updateBy": "Mise à jour par",
+    "openGraph": {
+      "header": "Données SEO",
+      "thumbnail": "Vignette",
+      "url": "SEO URL",
+      "urlPlaceholder": "ex: /accueil",
+      "title": "Titre",
+      "titlePlaceholder": "Ex: Page d'accueil",
+      "description": "Description",
+      "descriptionPlaceholder": "ex: enouvo est un bon service ..."
+    },
+    "pageContent": {
+      "header": "Contenu de la page"
+    },
+    "pageSection": {
+      "header": "Section de la page",
+      "sectionTemp": "Modèle de section",
+      "title": "Titre",
+      "description": "Description",
+      "button": "Bouton",
+      "image": "Image"
+    },
+    "contentType": {
+      "title": "Type de contenu",
+      "page": "Pages statiques",
+      "blogPage": "Pages de blog",
+      "pageDesc": "Le CMS Static Pages est la liste des pages web statiques comme la page d'accueil, la page de contact,...",
+      "categoryPage": "Pages de catégorie",
+      "categoryPageDesc": "Le CMS Category Pages est la liste des pages statiques de la page produit avec un filtre par catégorie.",
+      "menuDesc": "Le CMS Menu est la liste des menus d'en-tête pour chaque pays.",
+      "productDetail": "Détail du produit",
+      "categoryDetail": "Détail de la catégorie",
+      "contact": "Informations de contact",
+      "contactDesc": "Le CMS Contact est le détail de contact pour chaque pays comme Facebook, WhatsApp, numéro de téléphone, courriel de support,..."
+    },
+    "template": {
+      "section": "Section",
+      "banner": "Bannière",
+      "menuItem": "Élément du menu"
+    },
+    "tabs": {
+      "setting": "Réglage",
+      "content": "Contenu"
+    },
+    "button": {
+      "addNewContact": "Ajouter un nouveau contact",
+      "addNewSection": "Ajouter une nouvelle section",
+      "addNewMenu": "Ajouter un nouveau menu"
+    },
+    "contact": {
+      "header": "Contact",
+      "title": "Nom du contact",
+      "value": "Contenu de contact",
+      "image": "Image&Logo",
+      "titlePlaceholder": "Ex: courriel, numéro de téléphone, ...",
+      "valuePlaceholder": "Ex: enouvo@gmail.com, +6012345678,..."
+    },
+    "menu": {
+      "header": "Menu",
+      "title": "Titre du menu",
+      "url": "URL",
+      "color": "Couleur",
+      "isLeft": "Menu de gauche",
+      "titlePlaceholder": "Ex: Accueil, contact, ...",
+      "urlPlaceholder": "Ex: '/', '/ Contact', ..."
+    },
+    "popup": {
+      "confirmPublish": "Voulez-vous publier ce contenu?",
+      "confirmPublishDes": "",
+      "confirmUnPublish": "Voulez-vous dé-publier ce contenu?",
+      "confirmUnPublishDes": ""
+    }
+  },
+  "pageNotFound": "Page non trouvée",
+  "noData": "Pas de données",
+  "upload": {
+    "failed": "Échec du téléchargement",
+    "uploading": "Téléchargement de...",
+    "uploadText": "ou déposez les fichiers à télécharger",
+    "uploadBtn": "Ajouter des fichiers"
+  },
+  "serviceTypes": {
+    "header": "Type de service",
+    "name": "Nom",
+    "createPage": "Ajouter un nouveau type de service",
+    "editPage": "Modifier le type de service",
+    "description": "Description"
+  },
+  "onboardings": {
+    "header": "Vidéos d'embarquement",
+    "status": "Statut",
+    "description": "Description",
+    "hidden": "Caché",
+    "publish": "Publier",
+    "createPage": "Ajouter une nouvelle vidéo",
+    "editPage": "Modifier la vidéo d'accueil",
+    "videoLinks": "Lien vidéo"
+  },
+  "questionnairePages": {
+    "header": "Pages du questionnaire",
+    "createPage": "Ajouter une nouvelle page de questionnaire",
+    "editPage": "Modifier la page du questionnaire",
+    "name": "Nom",
+    "prePage": "Page précédente",
+    "nextPage": "Page suivante",
+    "numbQuestion": "Nombre de questions",
+    "firstPage": "Première page du questionnaire",
+    "lastPage": "Dernière page du questionnaire",
+    "isFirstPage": "Est première page du questionnaire",
+    "isLastPage": "Est la dernière page du questionnaire",
+    "questions": "Questions",
+    "questionType": "Type de question",
+    "isRequired": "Question obligatoire",
+    "question": "Question",
+    "options": "Options (requises uniquement pour les questions à choix multiple et à choix unique)",
+    "optionsPlaceholder": "Tapez et entrez pour ajouter une option",
+    "addNew": "Ajouter d'autres questions",
+    "noData": "Aucune question",
+    "enterQuestions": "Veuillez ajouter des questions pour le questionnaire",
+    "text": "Texte",
+    "onechoice": "Choix Unique",
+    "multichoice": "Choix Multiple",
+    "rating": "Score"
+  },
+  "businesses": {
+    "header": "Organisations",
+    "createPage": "Créer une organisation",
+    "businessName": "Nom de l'organisation",
+    "contactName": "Nom du contact",
+    "contactEmail": "Courriel du contact",
+    "contactPayPalEmail": "Paypal email account",
+    "contactPhoneNumber": "Téléphone du contact",
+    "description": "Description",
+    "address": "Adresse",
+    "country": "Pays",
+    "websiteLink": "Site web",
+    "twitterLink": "Twitter",
+    "fanPageLink": "Facebook",
+    "linkedInLink": "LinkedIn ",
+    "createdAt": "Date de création",
+    "socialChannel": "Médias sociaux",
+    "create": "+ Créer une organisation",
+    "editPage": "Modifier l'organisation",
+    "status": "Statut",
+    "generalInformation": "Informations générales",
+    "placeholder": {
+      "description": "Entrez la description",
+      "country": "Sélectionner le pays",
+      "businessName": "Saisir le nom de l'organisation",
+      "address": "Saisir l'adresse",
+      "websiteLink": "Saisir le lien du site Web",
+      "twitterLink": "Saisir le lien Twitter",
+      "fanPageLink": "Saisir le lien Facebook",
+      "linkedInLink": "Saisir le lien LinkedIn ",
+      "contactName": "Entrez le nom du contact",
+      "contactEmail": "Entrer le courriel du contact",
+      "contactPhoneNumber": "Saisir le téléphone du contact",
+      "status": "Sélectionner le statut"
+    },
+    "orders": {
+      "orderId": "ID de la commande",
+      "customer": "Clients",
+      "program": "Nom du programme",
+      "course": "Nom du Parcours",
+      "createdAt": "Date d'enregistrement",
+      "status": "Statut",
+      "price": "Prix",
+      "planCode": "Code du plan"
+    },
+    "customers": {
+      "username": "Client",
+      "email": "Compte",
+      "numberOfCourse": "Nombre de parcours",
+      "createdAt": "Date d'inscription"
+    },
+    "payouts": {
+      "amount": "Montant",
+      "paymentDate": "Date",
+      "note": "Note",
+      "status": "Statut"
+    }
+  },
+  "generateCMS": {
+    "header": "Générer un programme pour la page de destination",
+    "btnGenerateCMS": "Générer ({{count}})"
+  },
+  "pageHeader": {
+    "descCustomers": "Clients : La section des clients comprend tous les détails de chaque client : Informations de base, Parcours actuel, Ressources, Plus d'infos, Tâches.",
+    "descStartupDetail": "La section Startup comprend tous les détails de chaque startup : Informations de base, Cours actuel, Ressources, Plus d'infos, Tâches.",
+    "descProgramDetail": "La section Parcours comprend les détails du parcours avec 3 parties principales : Apprendre, Faire, Obtenir.",
+    "descUsers": "La section Gestion des utilisateurs comprend tous les détails des utilisateurs qui ont enregistré un compte : startup, coach, fournisseur de services.",
+    "descOrders": "La section Gestion des commandes comprend les détails des commandes passées par la startup.",
+    "descSubscriptions": "La section Plan d'abonnement contient la liste des plans d'abonnement avec les détails. L'administrateur peut ajouter un nouveau plan d'abonnement.",
+    "descSupportRequests": "Demande d'assistance comprend toutes les demandes créées à partir de la section Contactez-nous de la page de destination.",
+    "descGenerateCMS": "La section Generate CMS permet de créer des pages pour le site du client.",
+    "descBusiness": "La section Organisation comprend tous les détails de chaque organisation : informations générales, commandes, parcours, plans d'abonnement, clients, paiements.",
+    "descBusinessDetail": "La section Organisation comprend tous les détails de chaque organisation : informations générales, parcours, plans d'abonnement, clients, paiements.",
+    "descPayouts": "La gestion des paiements des organisations est le journal des paiements entre le Portail de lancement et les organisations."
+  },
+  "auth": {
+    "title": "Nous facilitons la création de startups",
+    "description": "Accédez à l'accompagnement, aux investissements, aux outils et aux ressources humaines dont vous avez besoin au bon moment pour créer votre startup plus rapidement et avec moins de risques."
+  },
+  "reports": {
+    "customers": "Clients",
+    "no": "No (Numéro)",
+    "name": "Nom",
+    "total": "Total",
+    "planCode": "Code du plan",
+    "subscriber": "Abonné",
+    "topRanking": "Premier rang",
+    "organizations": "Organisations",
+    "header": "Rapports",
+    "price": "Prix",
+    "bestSubscribers": "Meilleurs abonnés"
+  }
+}
